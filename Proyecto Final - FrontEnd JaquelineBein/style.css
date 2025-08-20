@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+header {
+  background: linear-gradient(to right, #ff9800, #f44336);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode header {
+  background: #333;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.barra-redes img,
+.redes img {
+  width: 30px;
+  height: auto;
+  margin: 0 8px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.barra-redes img:hover,
+.redes img:hover {
+  transform: scale(1.1);
+}
+
+.instagram a:hover {
+  background-color: #fdd835;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.instagram i {
+  color: #E1306C;
+}
